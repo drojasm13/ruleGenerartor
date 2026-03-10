@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="RuleGenerator.AI/RuleGenerator.AI.csproj" />
+  <Project Path="RuleGenerator.Console/RuleGenerator.Console.csproj" />
+  <Project Path="RuleGenerator.Core/RuleGenerator.Core.csproj" />
+</Solution>
