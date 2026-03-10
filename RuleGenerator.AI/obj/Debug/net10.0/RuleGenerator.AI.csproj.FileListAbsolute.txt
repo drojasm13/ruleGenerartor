@@ -1,0 +1,16 @@
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\bin\Debug\net10.0\RuleGenerator.AI.deps.json
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\bin\Debug\net10.0\RuleGenerator.AI.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\bin\Debug\net10.0\RuleGenerator.AI.pdb
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\bin\Debug\net10.0\RuleGenerator.Core.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\bin\Debug\net10.0\RuleGenerator.Core.pdb
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\RuleGenerator.AI.csproj.AssemblyReference.cache
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\RuleGenerator.AI.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\RuleGenerator.AI.AssemblyInfoInputs.cache
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\RuleGenerator.AI.AssemblyInfo.cs
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\RuleGenerator.AI.csproj.CoreCompileInputs.cache
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\RuleGenerator.AI.sourcelink.json
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\RuleGene.85216E9C.Up2Date
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\RuleGenerator.AI.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\refint\RuleGenerator.AI.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\RuleGenerator.AI.pdb
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.AI\obj\Debug\net10.0\ref\RuleGenerator.AI.dll

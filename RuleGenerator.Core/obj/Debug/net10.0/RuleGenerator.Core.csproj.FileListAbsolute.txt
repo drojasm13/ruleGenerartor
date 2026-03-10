@@ -1,0 +1,12 @@
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\bin\Debug\net10.0\RuleGenerator.Core.deps.json
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\bin\Debug\net10.0\RuleGenerator.Core.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\bin\Debug\net10.0\RuleGenerator.Core.pdb
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\obj\Debug\net10.0\RuleGenerator.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\obj\Debug\net10.0\RuleGenerator.Core.AssemblyInfoInputs.cache
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\obj\Debug\net10.0\RuleGenerator.Core.AssemblyInfo.cs
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\obj\Debug\net10.0\RuleGenerator.Core.csproj.CoreCompileInputs.cache
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\obj\Debug\net10.0\RuleGenerator.Core.sourcelink.json
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\obj\Debug\net10.0\RuleGenerator.Core.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\obj\Debug\net10.0\refint\RuleGenerator.Core.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\obj\Debug\net10.0\RuleGenerator.Core.pdb
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Core\obj\Debug\net10.0\ref\RuleGenerator.Core.dll
