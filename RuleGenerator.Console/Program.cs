@@ -1,9 +1,15 @@
 ﻿using System.Text.Json;
+using Microsoft.Extensions.Configuration;
 using RuleGenerator.AI.Services;
 using RuleGenerator.Core.Abstractions;
 using RuleGenerator.Core.Models;
 
-string? apiKey = "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"; //Environment.GetEnvironmentVariable("OPENAI_API_KEY");
+var configuration = new ConfigurationBuilder()
+                    .AddUserSecrets<Program>(optional:true)
+                    .AddEnvironmentVariables()
+                    .Build();
+
+string? apiKey = configuration["OpenAI:ApiKey"];
 
 if (string.IsNullOrWhiteSpace(apiKey))
 {
@@ -62,18 +68,32 @@ if (string.IsNullOrWhiteSpace(userRequest))
     return;
 }
 
-IRuleGenerator<RegexRule> generator =
-    new AiRegexRuleGenerator("gpt-4o-mini", apiKey);
+if (keySelected == "SqlFileSearch")
+{
+    var generator = new AiSqlRuleGenerator("gpt-4o-mini", apiKey);
 
-RegexRule rule =
-    await generator.GenerateAsync(systemPrompt, userRequest);
+    SqlRule rule =
+        await generator.GenerateAsync(systemPrompt, userRequest);
 
-Console.WriteLine();
-Console.WriteLine("Generated rule:");
-Console.WriteLine($"Regex: {rule.Regex}");
-Console.WriteLine($"Options: {string.Join(", ", rule.Options)}");
-Console.WriteLine($"Target: {rule.SearchTarget}");
-Console.WriteLine($"Files: {rule.IncludeFiles}");
-Console.WriteLine($"Directories: {rule.IncludeDirectories}");
-Console.WriteLine($"Review Required: {rule.RequiresReview}");
-Console.WriteLine($"Explanation: {rule.Explanation}");
+    Console.WriteLine();
+    Console.WriteLine("Generated SQL rule:");
+    Console.WriteLine(rule.Query);
+    Console.WriteLine(rule.Explanation);
+}
+else
+{
+    var generator = new AiRegexRuleGenerator("gpt-4o-mini", apiKey);
+
+    RegexRule rule =
+        await generator.GenerateAsync(systemPrompt, userRequest);
+
+    Console.WriteLine();
+    Console.WriteLine("Generated regex rule:");
+    Console.WriteLine($"Regex: {rule.Regex}");
+    Console.WriteLine($"Options: {string.Join(", ", rule.Options)}");
+    Console.WriteLine($"Target: {rule.SearchTarget}");
+    Console.WriteLine($"Files: {rule.IncludeFiles}");
+    Console.WriteLine($"Directories: {rule.IncludeDirectories}");
+    Console.WriteLine($"Review Required: {rule.RequiresReview}");
+    Console.WriteLine($"Explanation: {rule.Explanation}");
+}

@@ -2,6 +2,8 @@
   "Prompts": {
     "LocalizationRegex": "You generate .NET-compatible regular expressions for matching localized files, folders, or paths. Treat localization as being identified by culture or locale codes in names and paths, not by human language words. When the user asks for a language such as Spanish, French, Italian, or German, convert it to likely culture codes only. Example mappings: Spanish -> es, es-ES, es-MX. French -> fr, fr-FR, fr-CA. Italian -> it, it-IT. German -> de, de-DE. Do not include words like localization, language, spanish, french, italian, german, espanol, español, francais, or italiano in the regex. Build a practical .NET regex using separators such as start, end, slash, backslash, underscore, hyphen, dot, or space. Return only the JSON object defined by the schema.",
     
+    "SqlFileSearch": "You generate SQL queries for searching files stored in a database. The table contains file paths and file names. If the user refers to a localization language such as Spanish, convert it to culture codes such as es, es-ES, or es-MX. Build a safe SQL WHERE clause that searches the path or file name for those tokens. Return only the JSON object defined by the schema.",
+    
     "GenericRegex": "You generate .NET-compatible regular expressions from natural language requests. Build practical regex patterns for file names, folder names, or paths. Ignore filler words and return only the JSON object defined by the schema."
   }
 }

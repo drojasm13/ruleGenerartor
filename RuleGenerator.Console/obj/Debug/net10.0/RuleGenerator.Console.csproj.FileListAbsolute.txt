@@ -31,3 +31,10 @@ C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\obj\Debug\net10.0\RuleG
 C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\obj\Debug\net10.0\RuleGenerator.Console.genruntimeconfig.cache
 C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\obj\Debug\net10.0\ref\RuleGenerator.Console.dll
 C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\bin\Debug\net10.0\prompts.json
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\bin\Debug\net10.0\Microsoft.Extensions.Configuration.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\bin\Debug\net10.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\bin\Debug\net10.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Json.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\bin\Debug\net10.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\bin\Debug\net10.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\repos\work\Tools\ruleGenerartor\RuleGenerator.Console\bin\Debug\net10.0\Microsoft.Extensions.FileSystemGlobbing.dll
